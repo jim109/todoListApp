@@ -1,0 +1,142 @@
+body{
+    background-color: #F2F2F2;
+    color:#30363D;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    
+}
+
+p{
+    cursor: pointer;
+    margin: 0px;
+}
+
+.list-group{    
+    display: flex;
+    width: 310px;    
+    padding-bottom: 20px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+    font-weight: 300;     
+}
+
+.list-group li{
+    list-style: circle;
+}
+
+.list-group li p{
+    border: 1px solid #CBCFD4; 
+    border-radius: 10px;
+    width: 250px;
+    padding: 10px 0;
+    padding-left: 8px;
+
+}
+
+.list-group-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.complete{
+    background-color: #CBCFD4;
+}
+
+.title{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    padding-left: 20px;    
+    height: 60px;
+    border-bottom: 1px solid #CBCFD4;
+    
+}
+
+.todos-item{
+    width: 100%;  
+    height: 500px;
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+}
+
+.title-todos{
+    text-align: center;
+}
+
+.todoadd{
+    width: 100%;
+    text-align: center;
+    height: 60px;
+    position: fixed;
+    bottom: 0;
+    z-index: 999999;
+    padding: 20px 0 ;
+    
+
+}
+
+.btn-delete{
+    border-radius: 10px;
+    width: 40px;
+    height: 40px;    
+    color: #F7F7F7;
+    border: 1px solid #F7F7F7;
+    background-color: #006AB3;
+    
+}
+
+.container-add{
+    border-top: 1px solid #CBCFD4;
+    
+}
+
+.form-control{
+    width: 250px;
+    border-radius: 10px;
+    height: 35px;
+    background: #F7F7F7;
+    border-color: #F7F7F7;
+    border: 1px solid #CBCFD4;
+    padding-left: 8px;
+    margin-top: 20px;
+}
+
+.btn-agregar{
+    border-radius: 10px;
+    margin-left: 10px;
+    width: 40px;
+    height: 40px;    
+    color: #F7F7F7;
+    background-color: #006AB3;
+    border: 1px solid #006AB3
+}
+
+@media ( min-width:768px ){
+    .form-control{
+        width: 400px;
+        padding-left: 20px; 
+        
+        
+    }
+    .btn-agregar{
+        width: 50px;
+        margin-left: 38px;
+    }
+    .list-group li p{
+         width: 400px;
+         padding-left: 20px;    
+    }
+    .list-group{    
+        width: 500px;    
+    }
+    
+    
+}
+
+
